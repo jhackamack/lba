@@ -321,7 +321,7 @@ header .header-content .header-content-inner p {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 18px;
+    font-size: 30px;
 }
 
 .portfolio-box:hover .portfolio-box-caption {
@@ -334,7 +334,7 @@ header .header-content .header-content-inner p {
     }
 
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 22px;
+        font-size: 30px;
     }
 }
 
@@ -510,7 +510,58 @@ OVERRIDES
   text-align: center;
 }
 
+#team .carousel-inner>.item>a>img, 
+#team .carousel-inner>.item>img, 
+#team .img-responsive, 
+#team .thumbnail a>img, 
+#team .thumbnail>img {
+  height: 300px;
+  width: 300px;
+  max-width: 300px;
+}
+
 #footer {
   color: rgba(0,0,0,0.3);
   text-transform: uppercase;
+}
+#team h3 small {
+  display: block;
+  padding-top: 10px;
+  color: rgba(255,255,255,0.5);
+}
+
+
+
+.btn-notified:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74
+}
+
+#team a {
+  color: #fff;
+}
+#team h3 a {
+  color: #fff;
+}
+#team img:hover {
+  border: 3px solid #fff;
+}
+
+#team img.img-circle {
+  margin: 0px auto;
+}
+
+#footer img {
+  opacity: 0.5;
+  width: 50px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#footer .legal {
+  opacity: 0.2;
+}
+#footer hr {
+  background-color: rgba(0,0,0,0.2);
+  border-width: 1px;
 }
