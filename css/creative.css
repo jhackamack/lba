@@ -13,12 +13,14 @@ body {
 body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
     
-/*    -webkit-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-*/    
 }
+#portfolio {
+      -webkit-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
 
+  
+}
 hr {
     max-width: 500px;
     border-color: rgba(255,255,255,0.2);
@@ -418,8 +420,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
-    color: #fff;
-    background-color: #ee4b28;
+    color: #000;
+    background-color: #fff;
 }
 
 .btn-primary:active,
