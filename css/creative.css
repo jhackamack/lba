@@ -83,6 +83,7 @@ aside {
     padding: 0;
 }
 
+
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -130,7 +131,22 @@ aside {
     background-color: transparent;
 }
 
+@media(min-width:1px) {
+  #portfolio {
+    margin-bottom: 100px;
+  } 
+}
+@media(min-width: 375px) {
+  #portfolio {
+    margin-bottom: 0px;
+  } 
+}
 @media(min-width:768px) {
+  #portfolio {
+    margin-bottom: 0px;
+  }
+  
+  
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
@@ -187,6 +203,12 @@ aside {
     }
 }
 
+@media(min-width:2000px) {
+  #portfolio {
+    margin-bottom: 100px;
+  }
+  
+}
 header {
     position: relative;
     width: 100%;
@@ -564,4 +586,7 @@ OVERRIDES
 #footer hr {
   background-color: rgba(0,0,0,0.2);
   border-width: 1px;
+}
+#portfolio a:hover{
+  cursor: pointer;
 }
